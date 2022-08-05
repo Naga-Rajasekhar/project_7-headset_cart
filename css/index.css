@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  outline: 0;
+}
+
+body {
+  font: "Fredoka One", "Poppins";
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+img[src="./images/logo.svg"] {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 300px;
+  font-size: 30px;
+  gap: 40px;
+}
+
+.nav-item.active-item {
+  color: #ff5100;
+}
+
+img[src="./images/actions.svg"] {
+  margin-left: 140px;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+img[src="./images/circles.svg"] {
+  margin-left: 5px;
+  margin-top: 30px;
+  height: 40px;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 30px;
+  margin-top: 1px;
+  font-weight: 900;
+}
+
+.sub-headline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 10px;
+  margin-left: 80px;
+}
+
+.sub-headline img {
+  background: #ff5100;
+  border-radius: 50px;
+  padding: 5px;
+  width: 10px;
+}
+
+.text {
+  width: 700px;
+  color: rgba(46, 65, 82, 0.801);
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.action-btns {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  justify-content: space-between;
+  width: 350px;
+  margin-top: 30px;
+}
+
+.action-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #ff5100;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+}
+
+.right-section {
+  display: flex;
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  width: 140px;
+  bottom: 6.5rem;
+  left: -1rem;
+  z-index: 0;
+}
+
+img[src="./images/headphones.jpg"] {
+  position: absolute;
+  bottom: 90px;
+  right: 40px;
+  height: 430px;
+}
+
+img[src="./images/discount.svg"] {
+  position: absolute;
+  margin-left: 850px;
+  z-index: 1;
+  margin-bottom: 40px;
+}
+
+.action-btn:nth-child(3) {
+  height: 45px;
+  border-radius: 20px;
+  margin-left: 1050px;
+  z-index: 1;
+}
+
+.discount-content {
+  bottom: 150px;
+  right: 380px;
+  position: absolute;
+  z-index: 1;
+}
+
+.discount-content h1,
+h4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.dots {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 1030px;
+  margin-top: -60px;
+  z-index: 1;
+}
+
+.dots .dot.yellow-dot {
+  border-radius: 50px;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  background-color: yellow;
+}
+
+.dots .dot.tomato-dot {
+  border-radius: 50px;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  background-color: #ff6347;
+}
+
+.dots .dot.black-dot {
+  border-radius: 50px;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  background-color: #000000;
+}
