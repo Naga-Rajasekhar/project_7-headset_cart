@@ -4,11 +4,13 @@
 >
 > By Naga Rajasekhar
 
-You can find the live deployment link of this web page here --> **[Live Deployment Link](https://headsetfirm.netlify.app/)**
+You can find the live deployment link of this web page below
+
+# [Live Deployment Link](https://headsetfirm.netlify.app/)
+
 <br/>
 <br/>
-<br/>
-<br/>
+
 ![Preview](./preview_headset.png)
 
 <br/>
@@ -23,4 +25,4 @@ You can find the live deployment link of this web page here --> **[Live Deployme
 
 <hr>
 
-# This project took around 5 hours to complete it
+# It took around 5 hours to design this web page
