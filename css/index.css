@@ -86,7 +86,7 @@ h1 {
   margin-top: 30px;
 }
 
-.action-btn {
+.action-btns .action-btn {
   padding: 10px 20px;
   border-radius: 20px;
   background-color: #ff5100;
@@ -123,10 +123,13 @@ img[src="./images/discount.svg"] {
 }
 
 .action-btn:nth-child(3) {
+  background-color: #ff5100;
+  border: none;
   height: 45px;
   border-radius: 20px;
   margin-left: 1050px;
   z-index: 1;
+  padding: 1rem;
 }
 
 .discount-content {
@@ -177,4 +180,85 @@ h4 {
   height: 30px;
   width: 30px;
   background-color: #000000;
+}
+
+@media screen and (max-width: 640px) {
+  nav {
+    margin: 20px;
+  }
+  nav img {
+    height: 40px;
+    z-index: 2;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  nav img:last-child {
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 300px;
+  }
+
+  .intro-section {
+    margin: 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sub-headline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px;
+    font-size: 1rem;
+  }
+
+  .text {
+    width: 25rem;
+  }
+
+  .right-section {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 32rem;
+  }
+
+  .discount {
+    position: absolute;
+    width: 100px;
+    bottom: 6.5rem;
+    left: -54rem;
+    z-index: 0;
+  }
+
+  .discount-content {
+    position: absolute;
+    bottom: 140px;
+    left: 12px;
+    color: #fff;
+    z-index: 10;
+    font-size: 14px;
+  }
+
+  .discount-content h1 {
+    font-size: 24px;
+  }
+
+  .dots {
+    margin-left: 6rem;
+  }
+
+  .action-btn:nth-child(3) {
+    width: 7rem;
+    height: 45px;
+    border-radius: 20px;
+    margin-left: 8rem;
+    z-index: 1;
+    background-color: #ff5100;
+  }
 }
